@@ -157,9 +157,9 @@
     
     figure(data-aos="zoom-in")
       .video.mb-1
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption(data-aos="zoom-in") <strong>Video</strong>: TEXTO
-          
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/TJ2eirgTeOQ" title="Creación de MACROS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption(data-aos="zoom-in") <strong>Video</strong>: Creación de MACROS.
+
     <!-- BLOQUE 2 -->
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -198,8 +198,8 @@
 
         figure(data-aos="zoom-in").mb-5
           .video.mb-1
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption(data-aos="zoom-in") <strong>Video</strong>: TEXTO
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/l5_bHi74YfA" title="Grabación de MACROS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption(data-aos="zoom-in") <strong>Video</strong>: Grabación de MACROS.
 
         .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
           .col-lg-auto
@@ -351,8 +351,8 @@
 
     figure(data-aos="zoom-in").mb-5
       .video.mb-1
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption(data-aos="zoom-in") <strong>Video</strong>: TEXTO
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/himXWhAmycY" title="Creación de MACRO para un sistema de gestión de empleados" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption(data-aos="zoom-in") <strong>Video</strong>: Creación de MACRO para un sistema de gestión de empleados.
     
     p.mb-1 Además de los <em>UserForms</em>, Excel permite insertar controles directamente sobre la hoja de cálculo.
 
@@ -638,8 +638,8 @@
 
     figure(data-aos="zoom-in").mb-5
       .video.mb-1
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption(data-aos="zoom-in") <strong>Video</strong>: TEXTO
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/bklyZ8FIvts" title="Complemento MACRO gestión de empleados" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption(data-aos="zoom-in") <strong>Video</strong>: Complemento MACRO gestión de empleados.
 
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
