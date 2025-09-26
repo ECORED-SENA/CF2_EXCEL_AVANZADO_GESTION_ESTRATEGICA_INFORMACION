@@ -1,17 +1,23 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name:
+      'Generación de macros para la automatización de tareas en procesos empresariales',
+    Description:
+      'Este componente formativo brinda al aprendiz el conocimiento necesario para automatizar procesos en Excel usando macros y VBA, con foco en escenarios reales de analítica de datos y <em>reporting</em>. Asimismo, se busca desarrollar habilidades que le permita importar datos de múltiples fuentes, transformarlos para análisis, cargarlos en estructuras fiables (tablas/modelos) y automatizar todo el flujo de trabajo con un clic.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,13 +37,28 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Transformar datos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Tipos',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Importación',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Carga',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Automatización',
+            hash: 't_1_4',
           },
         ],
       },
@@ -45,14 +66,48 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Tarea',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Definición de requisitos',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Cálculos personalizados ',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Macros',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Creación',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Ejecución',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Interfaces',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,21 +157,127 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Macros',
+      referencia:
+        'A2 Capacitación: Excel. (2020). Aprende macros en Excel en menos de 11 minutos [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=PvebpkrMG4o ',
+    },
+    {
+      tema: 'Macros',
+      referencia:
+        'SmartPro Academy. (2022). Aprende a crear macros en Excel desde cero [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=jjoeK6rzQDA ',
+    },
+    {
+      tema: 'Macros',
+      referencia:
+        'A2 Capacitación: Excel. (2020). Macros que necesitas en tu trabajo [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=D-zMyoEfiR8 ',
+    },
+    {
+      tema: 'Macros',
+      referencia: 'Deivis Eduard Ramirez Martinez (2025). Dataset empleados. ',
+      tipo: 'Archivo Excel',
+      link: '/downloads/empleados.csv',
+    },
+    {
+      tema: 'Macros',
+      referencia:
+        'Deivis Eduard Ramirez Martinez (2025). Dataset empleados_ejemplo. ',
+      tipo: 'Archivo Excel',
+      link: '/downloads/empleados_ejemplo.csv',
+    },
+    {
+      tema: 'Macros',
+      referencia:
+        'Deivis Eduard Ramirez Martinez (2025). Dataset Practica interfaz. ',
+      tipo: 'Archivo Excel ',
+      link: '/downloads/PracticaInterfaz.xlsm',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Automatización',
+      significado:
+        'uso de macros o herramientas como <em>Power Query</em> para ejecutar tareas repetitivas sin intervención manual.',
+    },
+    {
+      termino: 'Carga de datos',
+      significado:
+        'inserción de la información transformada en la hoja de cálculo para su análisis final.',
+    },
+    {
+      termino: 'Importación de datos',
+      significado:
+        'incorporación de información desde diversas fuentes externas a Excel para su posterior análisis.',
+    },
+    {
+      termino: 'Limpieza de datos',
+      significado: 'eliminación de errores, inconsistencias y duplicados.',
+    },
+    {
+      termino: 'Macro',
+      significado:
+        'secuencia de instrucciones en VBA que permite automatizar tareas repetitivas dentro de Excel.',
+    },
+    {
+      termino: 'Normalización',
+      significado:
+        'estandarización de formatos y unidades que mejora la consistencia y elimina redundancias.',
+    },
+    {
+      termino: 'Pivotear datos',
+      significado:
+        'reorganización que convierte filas en columnas para facilitar el análisis comparativo.',
+    },
+    {
+      termino: 'Tarea',
+      significado:
+        'unidad de trabajo sistemática, repetible y medible que transforma entradas en salidas siguiendo reglas de negocio.',
+    },
+    {
+      termino: 'Transformar datos',
+      significado:
+        'conjunto de operaciones necesarias para hacer que los datos sean utilizables: consistentes, limpios, con tipos correctos y estructura apta para análisis y visualización.',
+    },
+    {
+      termino: '<em>UserForm</em>',
+      significado:
+        'formulario personalizado creado en VBA que permite interacción con el usuario mediante controles visuales.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Alexander, M., Kusleika, R., & Walkenbach, J. (2018). Excel 2019 bible. John Wiley & Sons.',
+      link: '',
+    },
+    {
+      referencia:
+        'Alexander, M., & Kusleika, D. (2019). Excel 2019 power programming with VBA. John Wiley & Sons.',
+      link: '',
+    },
+    {
+      referencia:
+        'Bernal-García, J. J., Dolores, S. M. M. M., & Bernal-Soto, P. (2011). Representación automática de funciones en Excel y su aplicación docente. Revista Electrónica de Comunicaciones y Trabajos de ASEPUMA, 12(1), 141-157.',
+      link: '',
+    },
+    {
+      referencia:
+        'González, F. J. P., & Llamas, M. D. C. G. (2017). Análisis y representación gráfica de funciones matemáticas con Excel. Anales de ASEPUMA, (25), 1.',
+      link: '',
+    },
+    {
+      referencia:
+        'Winston, W. (2016). Microsoft Excel data analysis and business modeling. Microsoft press.',
+      link: '',
+    },
+    {
+      referencia:
+        'Winston, W. (2021). Microsoft Excel data analysis and business modeling (Office 2021 and Microsoft 365). Microsoft Press.',
       link: '',
     },
   ],
@@ -125,14 +286,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Líder del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -144,20 +305,28 @@ export default {
           cargo: 'Nombre del rol',
           centro: 'Centro XYZ - Regional XYZ',
         },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
       ],
     },
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Blanca Flor Tinoco Torres',
+          cargo: 'Diseñador de contenidos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Robinson Javier Ordoñez Barreiro',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Nombre responsable',
@@ -170,14 +339,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Raúl Mosquera Serrano',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },

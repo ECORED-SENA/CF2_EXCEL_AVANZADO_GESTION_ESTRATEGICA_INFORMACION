@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="505" height="647" viewBox="0 0 505 647">
+  <g id="Group_1190386" data-name="Group 1190386" transform="translate(-180.051 -4508)">
+    <path id="Rectangle_389225" data-name="Rectangle 389225" d="M9,0H496a9,9,0,0,1,9,9V55a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V9A9,9,0,0,1,9,0Z" transform="translate(180.051 4508)" fill="#3a1d71"/>
+    <path id="Rectangle_389226" data-name="Rectangle 389226" d="M0,0H505a0,0,0,0,1,0,0V583a9,9,0,0,1-9,9H9a9,9,0,0,1-9-9V0A0,0,0,0,1,0,0Z" transform="translate(180.051 4563)" fill="#110628"/>
+    <circle id="Ellipse_11380" data-name="Ellipse 11380" cx="8" cy="8" r="8" transform="translate(212.051 4527)" fill="#fb130d"/>
+    <circle id="Ellipse_11381" data-name="Ellipse 11381" cx="8" cy="8" r="8" transform="translate(247.051 4527)" fill="#fecd02"/>
+    <circle id="Ellipse_11382" data-name="Ellipse 11382" cx="8" cy="8" r="8" transform="translate(288.051 4527)" fill="#43dfaa"/>
+    <text id="Private_Sub_UserForm_Initialize_Configurar_ComboBox_Departamento_With_cboDepartamento_.AddItem_Recursos_Humanos_.AddItem_Finanzas_.AddItem_Marketing_.AddItem_Ventas_.AddItem_IT_.AddItem_" data-name="Private Sub UserForm_Initialize()
+    ‘ Configurar ComboBox Departamento
+    With cboDepartamento
+        .AddItem “Recursos Humanos”
+        .AddItem “Finanzas”
+        .AddItem “Marketing”
+        .AddItem “Ventas”
+        .AddItem “IT”
+        .AddItem " transform="translate(206.051 4584)" fill="#fff" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="15">Private Sub UserForm_Initialize()</tspan><tspan x="0" y="38" xml:space="preserve">    ‘ Configurar ComboBox Departamento</tspan><tspan x="0" y="61" xml:space="preserve">    With cboDepartamento</tspan><tspan x="0" y="84" xml:space="preserve">        .AddItem “Recursos Humanos”</tspan><tspan x="0" y="107" xml:space="preserve">        .AddItem “Finanzas”</tspan><tspan x="0" y="130" xml:space="preserve">        .AddItem “Marketing”</tspan><tspan x="0" y="153" xml:space="preserve">        .AddItem “Ventas”</tspan><tspan x="0" y="176" xml:space="preserve">        .AddItem “IT”</tspan><tspan x="0" y="199" xml:space="preserve">        .AddItem “Operaciones”</tspan><tspan x="0" y="222" xml:space="preserve">    End With</tspan><tspan x="0" y="245" xml:space="preserve">    </tspan><tspan x="0" y="268" xml:space="preserve">    ‘ Configurar ComboBox Cargo</tspan><tspan x="0" y="291" xml:space="preserve">    With cboCargo</tspan><tspan x="0" y="314" xml:space="preserve">        .AddItem “Gerente”</tspan><tspan x="0" y="337" xml:space="preserve">        .AddItem “Supervisor”</tspan><tspan x="0" y="360" xml:space="preserve">        .AddItem “Analista”</tspan><tspan x="0" y="383" xml:space="preserve">        .AddItem “Asistente”</tspan><tspan x="0" y="406" xml:space="preserve">        .AddItem “Especialista”</tspan><tspan x="0" y="429" xml:space="preserve">        .AddItem “Coordinador”</tspan><tspan x="0" y="452" xml:space="preserve">    End With</tspan><tspan x="0" y="475" xml:space="preserve">    </tspan><tspan x="0" y="498" xml:space="preserve">    ‘ Estado por defecto</tspan><tspan x="0" y="521" xml:space="preserve">    optActivo.Value = True</tspan><tspan x="0" y="544">End Sub</tspan></text>
+  </g>
+</svg>
