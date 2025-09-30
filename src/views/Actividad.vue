@@ -196,7 +196,28 @@ export default {
         {
           id: 9,
           texto:
-            'Para escribir código VBA, es necesario insertar un "Módulo" desde el menú "Insertar" en el editor de Visual Basic.',
+            'Para escribir código VBA, es necesario insertar un "Módulo" desde el menú "Insertar" en el editor de <em>Visual Basic</em>.',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 10,
+          texto:
+            'Una de las ventajas de usar interfaces en macros es reducir errores de ingreso de datos por parte de los usuarios.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [

@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/img41.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 No se trata solo de crear macros, sino de resolver un problema de negocio real. Una <strong>tarea</strong> no es simplemente “hacer una macro”. La tarea es el <strong>problema de negocio</strong> que se busca resolver mediante una solución automatizada. Por ejemplo: “<strong>Generar el reporte de ventas diario</strong>”.
+        p.mb-0 No se trata solo de crear macros, sino de resolver un problema de negocio real. Una <strong>tarea</strong> no es simplemente “hacer una macro”. La tarea es el <strong>problema de negocio</strong> que se busca resolver mediante una solución automatizada. Por ejemplo: “<strong>generar el reporte de ventas diario</strong>”.
       
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -99,7 +99,7 @@
             <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span><strong>Medible y verificable</strong>: permite evaluar su eficacia, precisión y confiabilidad.</li>
             <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span><strong>Adherencia a reglas de negocio</strong>: sigue condiciones previamente definidas.</li>
             <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span><strong>Automatizable</strong>: puede implementarse mediante macros o VBA para mejorar la eficiencia.</li>
-            <li class="mb-0"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span><strong>Trazable</strong>: genera evidencias de su ejecución (logs, resultados intermedios, versiones).</li>
+            <li class="mb-0"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span><strong>Trazable</strong>: genera evidencias de su ejecución (<em>logs</em>, resultados intermedios, versiones).</li>
           </ul>
 
     .fondo___color_1

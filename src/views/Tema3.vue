@@ -76,7 +76,7 @@
               .col-xl-6.mb-4
                 h4.mb-4 Proceso paso a paso
                 <ul class="fa-ul estilo___ul_2 mb-0">
-                  <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Ir a Desarrollador > Grabar macro.</li>
+                  <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Ir a Desarrollador grabar macro.</li>
                   <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Asignar nombre y ubicación.</li>
                   <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Realizar las acciones a automatizar.</li>
                   <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Detener la grabación.</li>
@@ -119,7 +119,7 @@
               img(src="@/assets/curso/temas/img75.png", alt="").m-auto
           .col-xl-6.style___box_1.ajuste___box_1(data-aos="fade-left")
             <ul class="fa-ul estilo___ul_1 mb-0">
-              <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Subrutinas (Sub) y funciones (Function).</li>
+              <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Subrutinas (Sub) y funciones (<em>Function</em>).</li>
               <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Variables y constantes.</li>
               <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Estructuras de control, como <em>If-Then, Select Case, bucles For, Do While</em>.</li>
               <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Objetos y propiedades de Excel.</li>
@@ -153,7 +153,7 @@
         figure.d-none.d-xl-block
           img(src="@/assets/curso/temas/img76.png", alt="").m-auto
     
-    p.mb-5 En el siguiente video se explica como habilitar la opción de desarrollador, y posteriormente, como crear y ejecutar una macro: 
+    p.mb-5 En el siguiente video se explica cómo habilitar la opción de desarrollador y, posteriormente, cómo crear y ejecutar una macro: 
     
     figure(data-aos="zoom-in")
       .video.mb-1
@@ -243,7 +243,7 @@
               .col-xl.style___box_2(data-aos="fade-left")
                 p.mb-3 La ejecución programada puede realizarse a través de:
                 <ul class="fa-ul estilo___ul_1 mb-0">
-                  <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>El <strong><em>Scheduler</em> del sistema operativo</strong> (como el Programador de tareas de Windows).</li>
+                  <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>El <strong><em>Scheduler</em> del sistema operativo</strong> (como el programador de tareas de Windows).</li>
                   <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span><strong><em>Power Automate</em></strong>, para flujos automatizados.</li>
                   <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span><strong>Aplicaciones de terceros</strong> que permiten lanzar macros.</li>
                   <li class="mb-0"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span><strong><em>Scripts</em> de inicio</strong> configurados para activarse al encender el sistema o abrir archivos específicos.</li>
@@ -254,7 +254,7 @@
         #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 3.3 Interfaces
 
-        p.mb-5 Las interfaces en macros de Excel corresponden a los elementos visuales, y a los métodos de interacción, que permiten a los usuarios relacionarse con ellas de manera intuitiva y dinámica.
+        p.mb-5 Las interfaces en macros de Excel corresponden a los elementos visuales y a los métodos de interacción que permiten a los usuarios relacionarse con ellas de manera intuitiva y dinámica.
 
         .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
           .col-lg-auto
@@ -283,7 +283,7 @@
     .fondo___color_4
       .px-5
 
-        p.mb-5 A continuación, se presenta una tabla con las etiquetas necesarias que se utilizarán como ejercicio práctico. El objetivo es crear un UserForm utilizando los datos del archivo empleados_ejemplo.csv, agregando las siguientes etiquetas en las posiciones indicadas:
+        p.mb-5 A continuación, se presenta una tabla con las etiquetas necesarias que se utilizarán como ejercicio práctico. El objetivo es crear un <em>UserForm</em> utilizando los datos del archivo empleados_ejemplo.csv, agregando las siguientes etiquetas en las posiciones indicadas:
 
         .row.justify-content-center.mb-5
           .col-xl-6
@@ -299,44 +299,44 @@
                     th <em>Caption</em>
                 tbody
                   tr.ajuste-color-tabla
-                    td.ajuste-border-tabla Label1
-                    td.ajuste-border-tabla Top: 12, Left: 12
+                    td.ajuste-border-tabla <em>Label</em>1
+                    td.ajuste-border-tabla <em>Top</em>: 12, <em>Left</em>: 12
                     td ID:
                   tr
-                    td.ajuste-border-tabla Label2
-                    td.ajuste-border-tabla Top: 42, Left: 12
+                    td.ajuste-border-tabla <em>Label</em>2
+                    td.ajuste-border-tabla <em>Top</em>: 42, <em>Left</em>: 12
                     td Nombre:
                   tr.ajuste-color-tabla
-                    td.ajuste-border-tabla Label3
-                    td.ajuste-border-tabla Top: 72, Left: 12
+                    td.ajuste-border-tabla <em>Label</em>3
+                    td.ajuste-border-tabla <em>Top</em>: 72, <em>Left</em>: 12
                     td Apellido:
                   tr
-                    td.ajuste-border-tabla Label4
-                    td.ajuste-border-tabla Top: 102, Left: 12
+                    td.ajuste-border-tabla <em>Label</em>4
+                    td.ajuste-border-tabla <em>Top</em>: 102, <em>Left</em>: 12
                     td Email:
                   tr.ajuste-color-tabla
-                    td.ajuste-border-tabla Label5
-                    td.ajuste-border-tabla Top: 132, Left: 12
+                    td.ajuste-border-tabla <em>Label</em>5
+                    td.ajuste-border-tabla <em>Top</em>: 132, <em>Left</em>: 12
                     td Teléfono:
                   tr
-                    td.ajuste-border-tabla Label6
-                    td.ajuste-border-tabla Top: 162, Left: 12
+                    td.ajuste-border-tabla <em>Label</em>6
+                    td.ajuste-border-tabla <em>Top</em>: 162, <em>Left</em>: 12
                     td Departamento:
                   tr.ajuste-color-tabla
-                    td.ajuste-border-tabla Label7
-                    td.ajuste-border-tabla Top: 192, Left: 12
+                    td.ajuste-border-tabla <em>Label</em>7
+                    td.ajuste-border-tabla <em>Top</em>: 192, <em>Left</em>: 12
                     td Cargo:
                   tr
-                    td.ajuste-border-tabla Label8
-                    td.ajuste-border-tabla Top: 222, Left: 12
+                    td.ajuste-border-tabla <em>Label</em>8
+                    td.ajuste-border-tabla <em>Top</em>: 222, <em>Left</em>: 12
                     td Salario:
                   tr.ajuste-color-tabla
-                    td.ajuste-border-tabla Label9
-                    td.ajuste-border-tabla Top: 252, Left: 12
+                    td.ajuste-border-tabla <em>Label</em>9
+                    td.ajuste-border-tabla <em>Top</em>: 252, <em>Left</em>: 12
                     td Fecha Ingreso:
                   tr
-                    td.ajuste-border-tabla Label10
-                    td.ajuste-border-tabla Top: 282, Left: 12
+                    td.ajuste-border-tabla <em>Label</em>10
+                    td.ajuste-border-tabla <em>Top</em>: 282, <em>Left</em>: 12
                     td Estado:
 
         p.mb-5 Después de crear las etiquetas de la tabla 9, el <em>UserForm</em> debe presentarse como se presenta en la siguiente figura.
@@ -375,7 +375,7 @@
     .fondo___color_2
       .px-5
         
-        p.mb-5 A continuación, se debe complementar el UserForm con los controles restantes según las configuraciones establecidas:
+        p.mb-5 A continuación, se debe complementar el <em>UserForm</em> con los controles restantes según las configuraciones establecidas:
 
         .row.justify-content-center.mb-5
           .col-xl-8
@@ -387,40 +387,40 @@
                 thead
                   tr
                     th.ajuste-border-tabla Control
-                    th.ajuste-border-tabla Name
+                    th.ajuste-border-tabla <em>Name</em>
                     th.ajuste-border-tabla Posición
                     th Ancho
                 tbody
                   tr.ajuste-color-tabla
-                    td.ajuste-border-tabla TextBox
+                    td.ajuste-border-tabla <em>TextBox</em>
                     td.ajuste-border-tabla txtID
-                    td.ajuste-border-tabla Top: 12, Left: 100
-                    td Width: 80
+                    td.ajuste-border-tabla <em>Top</em>: 12, <em>Left</em>: 100
+                    td <em>Width</em>: 80
                   tr
-                    td.ajuste-border-tabla TextBox
+                    td.ajuste-border-tabla <em>TextBox</em>
                     td.ajuste-border-tabla txtNombre
-                    td.ajuste-border-tabla Top: 42, Left: 100
-                    td Width: 150
+                    td.ajuste-border-tabla <em>Top</em>: 42, <em>Left</em>: 100
+                    td <em>Width</em>: 150
                   tr.ajuste-color-tabla
-                    td.ajuste-border-tabla TextBox
+                    td.ajuste-border-tabla <em>TextBox</em>
                     td.ajuste-border-tabla txtApellido
-                    td.ajuste-border-tabla Top: 72, Left: 100
-                    td Width: 150
+                    td.ajuste-border-tabla <em>Top</em>: 72, <em>Left</em>: 100
+                    td <em>Width</em>: 150
                   tr
-                    td.ajuste-border-tabla TextBox
+                    td.ajuste-border-tabla <em>TextBox</em>
                     td.ajuste-border-tabla txtEmail
-                    td.ajuste-border-tabla Top: 102, Left: 100
-                    td Width: 200
+                    td.ajuste-border-tabla <em>Top</em>: 102, <em>Left</em>: 100
+                    td <em>Width</em>: 200
                   tr.ajuste-color-tabla
-                    td.ajuste-border-tabla TextBox
+                    td.ajuste-border-tabla <em>TextBox</em>
                     td.ajuste-border-tabla txtTelefono
-                    td.ajuste-border-tabla Top: 132, Left: 100
-                    td Width: 120
+                    td.ajuste-border-tabla <em>Top</em>: 132, <em>Left</em>: 100
+                    td <em>Width</em>: 120
                   tr
-                    td.ajuste-border-tabla TextBox
+                    td.ajuste-border-tabla <em>TextBox</em>
                     td.ajuste-border-tabla txtSalario
-                    td.ajuste-border-tabla Top: 222, Left: 100
-                    td Width: 100
+                    td.ajuste-border-tabla <em>Top</em>: 222, <em>Left</em>: 100
+                    td <em>Width</em>: 100
         
         p.mb-5 Para seleccionar valores predefinidos como departamento o cargo, se usarán listas desplegables (<em>ComboBoxes</em>).
 
@@ -434,17 +434,17 @@
                 thead
                   tr
                     th.ajuste-border-tabla Control
-                    th.ajuste-border-tabla Name
+                    th.ajuste-border-tabla <em>Name</em>
                     th Posición
                 tbody
                   tr.ajuste-color-tabla
-                    td.ajuste-border-tabla ComboBox
+                    td.ajuste-border-tabla <em>ComboBox</em>
                     td.ajuste-border-tabla cboDepartamento
-                    td Top: 162, Left: 100
+                    td <em>Top</em>: 162, <em>Left</em>: 100
                   tr
-                    td.ajuste-border-tabla ComboBox
+                    td.ajuste-border-tabla <em>ComboBox</em>
                     td.ajuste-border-tabla cboCargo
-                    td Top: 192, Left: 100
+                    td <em>Top</em>: 192, <em>Left</em>: 100
 
         p.mb-5 La fecha de ingreso será capturada inicialmente mediante un cuadro de texto. Más adelante puede reemplazarse por un control de calendario si se desea mayor validación.
 
@@ -458,13 +458,13 @@
                 thead
                   tr
                     th.ajuste-border-tabla Control
-                    th.ajuste-border-tabla Name
+                    th.ajuste-border-tabla <em>Name</em>
                     th Posición
                 tbody
                   tr.ajuste-color-tabla
-                    td.ajuste-border-tabla TextBox
+                    td.ajuste-border-tabla <em>TextBox</em>
                     td.ajuste-border-tabla txtFechaIngreso
-                    td Top: 252, Left: 100
+                    td <em>Top</em>: 252, <em>Left</em>: 100
     
     p.mb-5 Para indicar el estado del empleado (activo o inactivo), se empleará un grupo de botones de opción (<em>OptionButtons</em>), contenidos dentro de un marco (<em>Frame</em>). 
 
@@ -477,23 +477,23 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")(data-aos="fade-left")
             .row(titulo="<em>Frame</em> (contenedor de los botones)").ajuste-cajaAcordion
               <ul class="fa-ul estilo___ul_2 mb-0">
-                <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Name: fraEstado.</li>
-                <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Caption: Estado.</li>
-                <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Posición: Top: 282, Left: 100.</li>
-                <li class="mb-0"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Tamaño: Width: 150, Height: 50.</li>
+                <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span><em>Name</em>: fraEstado.</li>
+                <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span><em>Caption</em>: Estado.</li>
+                <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Posición: <em>Top</em>: 282, <em>Left</em>: 100.</li>
+                <li class="mb-0"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Tamaño: <em>Width</em>: 150, <em>Height</em>: 50.</li>
               </ul>
             .row(titulo="Dentro del <em>Frame</em>").ajuste-cajaAcordion
               p.mb-3 OptionButton1:
               <ul class="fa-ul estilo___ul_2 mb-4">
-                <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Name: optActivo.</li>
-                <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Caption: Activo.</li>
-                <li class="mb-0"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Posición: Top: 15, Left: 10.</li>
+                <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span><em>Name</em>: optActivo.</li>
+                <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span><em>Caption</em>: Activo.</li>
+                <li class="mb-0"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Posición: <em>Top</em>: 15, <em>Left</em>: 10.</li>
               </ul>
               p.mb-3 OptionButton2:
               <ul class="fa-ul estilo___ul_2 mb-3">
-                <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Name: optInactivo.</li>
-                <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Caption: Inactivo.</li>
-                <li class="mb-0"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Posición: Top: 15, Left: 80.</li>
+                <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span><em>Name</em>: optInactivo.</li>
+                <li class="mb-2"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span><em>Caption</em>: Inactivo.</li>
+                <li class="mb-0"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Posición: <em>Top</em>: 15, <em>Left</em>: 80.</li>
               </ul>
 
     p.mb-5 Finalmente, se deben agregar los botones de acción en la parte inferior del formulario. Estos permitirán ejecutar las funciones básicas del sistema: agregar, modificar, eliminar, buscar y cerrar.
@@ -507,36 +507,36 @@
           table
             thead
               tr
-                th.ajuste-border-tabla Button
-                th.ajuste-border-tabla Name
-                th.ajuste-border-tabla Caption
+                th.ajuste-border-tabla <em>Button</em>
+                th.ajuste-border-tabla <em>Name</em>
+                th.ajuste-border-tabla <em>Caption</em>
                 th Posición
             tbody
               tr.ajuste-color-tabla
-                td.ajuste-border-tabla CommandButton
+                td.ajuste-border-tabla <em>CommandButton</em>
                 td.ajuste-border-tabla btnAgregar
                 td.ajuste-border-tabla Agregar
-                td Top: 350, Left: 12
+                td <em>Top</em>: 350, <em>Left</em>: 12
               tr
-                td.ajuste-border-tabla CommandButton
+                td.ajuste-border-tabla <em>CommandButton</em>
                 td.ajuste-border-tabla btnModificar
                 td.ajuste-border-tabla Modificar
-                td Top: 350, Left: 92
+                td <em>Top</em>: 350, <em>Left</em>: 92
               tr.ajuste-color-tabla
-                td.ajuste-border-tabla CommandButton
+                td.ajuste-border-tabla <em>CommandButton</em>
                 td.ajuste-border-tabla btnEliminar
                 td.ajuste-border-tabla Eliminar
-                td Top: 350, Left: 172
+                td <em>Top</em>: 350, <em>Left</em>: 172
               tr
-                td.ajuste-border-tabla CommandButton
+                td.ajuste-border-tabla <em>CommandButton</em>
                 td.ajuste-border-tabla btnBuscar
                 td.ajuste-border-tabla Buscar
-                td Top: 350, Left: 252
+                td <em>Top</em>: 350, <em>Left</em>: 252
               tr.ajuste-color-tabla
-                td.ajuste-border-tabla CommandButton
+                td.ajuste-border-tabla <em>CommandButton</em>
                 td.ajuste-border-tabla btnCerrar
                 td.ajuste-border-tabla Cerrar
-                td Top: 350, Left: 332
+                td <em>Top</em>: 350, <em>Left</em>: 332
     
     p.mb-5 Ingrese y gestione la información de los empleados de manera rápida y organizada:
 

@@ -78,7 +78,7 @@
         
         .row.align-items-center.mb-4
           .col-xl
-            p.mb-3 En el dinámico mundo de los negocios y la analítica de datos, <strong>Excel</strong> se posiciona como una herramienta clave y predominante. Este software actúa como un <strong>puente entre los datos masivos y las decisiones estratégicas</strong>, gracias a sus capacidades de transformación y automatización. En Excel, las transformaciones pueden realizarse mediante:
+            p.mb-3 En el dinámico mundo de los negocios y la analítica de datos, <strong>Excel</strong> se posiciona como una herramienta clave y predominante. Este <em>software</em> actúa como un <strong>puente entre los datos masivos y las decisiones estratégicas</strong>, gracias a sus capacidades de transformación y automatización. En Excel, las transformaciones pueden realizarse mediante:
             .row.align-items-center.m-0.style___box_3(data-aos="fade-right")
               .col-xl-auto
                 figure.d-none.d-xl-block(data-aos="zoom-in")
@@ -222,7 +222,7 @@
               h3.text-center Antes del pivoteo
               <ul class="fa-ul estilo___ul mb-0">
                 <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>6 filas de datos (una por cada combinación vendedor - trimestre).</li>
-                <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>3 columnas: <strong>Vendedor, Trimestre, Ventas</strong>.</li>
+                <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>3 columnas: <strong>vendedor, trimestre, ventas</strong>.</li>
                 <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Formato <strong>largo</strong> o vertical.</li>
                 <li class="mb-0"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Cada venta ocupa una fila completa.</li>
               </ul>
@@ -235,7 +235,7 @@
               h3.text-center Después del pivoteo
               <ul class="fa-ul estilo___ul mb-0">
                 <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>3 filas de datos (una por vendedor).</li>
-                <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>3 columnas: <strong>Vendedor, Q1, Q2</strong>.</li>
+                <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>3 columnas: <strong>vendedor, Q1, Q2</strong>.</li>
                 <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Formato <strong>ancho</strong> u horizontal.</li>
                 <li class="mb-1"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Los trimestres se convirtieron en columnas.</li>
                 <li class="mb-0"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Se facilita la comparación entre trimestres.</li>
@@ -270,11 +270,11 @@
           .col-xl-6(data-aos="zoom-in")
             .style___box_7.h-100
               h4.mb-0.text-center Sin pivotear
-              p.mb-0 Ideal para la <strong>entrada de datos, bases de datos, o filtros complejos</strong>.
+              p.mb-0 Ideal para la <strong>entrada de datos, bases de datos o filtros complejos</strong>.
           .col-xl-6(data-aos="zoom-in").espacio___movil_3
             .style___box_7.h-100
               h4.mb-0.text-center Pivoteado
-              p.mb-0 Adecuado para <strong>reportes, presentaciones, o análisis comparativo</strong>.
+              p.mb-0 Adecuado para <strong>reportes, presentaciones o análisis comparativo</strong>.
       .col-xl-auto(data-aos="fade-left")
         figure.d-none.d-xl-block
           img(src="@/assets/curso/temas/img22.png", alt="").m-auto
@@ -309,7 +309,7 @@
           <li class="mb-0"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span><strong>Consistencia en formatos</strong>: usar formatos uniformes para fechas, números y texto.</li>
         </ul>
     
-    p.mb-5 Veamos un ejemplo concreto de normalización, se parte de una tabla con información duplicada y poco estructurada.
+    p.mb-5 Veamos un ejemplo concreto de normalización; se parte de una tabla con información duplicada y poco estructurada.
     
     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
       h5 Tabla 3.
@@ -476,7 +476,7 @@
       .col-xl.style___box_6(data-aos="fade-left")
         <ul class="fa-ul estilo___ul mb-0">
           <li class="mb-3"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Usar <strong>múltiples hojas</strong> para representar cada tabla.</li>
-          <li class="mb-3"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Relacionarlas con funciones como <strong>BUSCARV o XLOOKUP</strong>.</li>
+          <li class="mb-3"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Relacionarlas con funciones como <strong><em>BUSCARV o XLOOKUP</em></strong>.</li>
           <li class="mb-3"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Utilizar <strong><em>Power Query</em></strong> para crear relaciones y mantener consistencia.</li>
           <li class="mb-0"><span class="fa-li"><i class="fas fa-arrow-alt-circle-right"></i></span>Crear <strong>tablas dinámicas</strong> para análisis a partir de datos vinculados.</li>
         </ul>
@@ -610,15 +610,15 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")(data-aos="fade-left")
             .row(titulo="Pegado especial").ajuste-cajaAcordion
               p.mb-3 Copia los datos → clic derecho → Pegado especial → marcar "Transponer".
-            .row(titulo="Función TRANSPONER()").ajuste-cajaAcordion
+            .row(titulo="Función transponer").ajuste-cajaAcordion
               p.mb-3  =TRANSPONER(A1:D3) en un rango del mismo tamaño. Requiere Ctrl+Shift+Enter.
             .row(titulo="<em>Power Query</em>").ajuste-cajaAcordion
-              p.mb-3 Usar Obtener datos → permite transposición dinámica con actualización.
+              p.mb-3 Usar obtener datos → permite transposición dinámica con actualización.
         
     <!-- BLOQUE 2 -->
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2 Importación
+      h2 1.2 Importación de datos
     
     p.mb-5 Este proceso permite incorporar información desde diversas fuentes externas a Excel. La <strong>importación de datos</strong> consiste en traer información desde archivos, bases de datos o servicios web hacia una hoja de cálculo, para su posterior análisis. Excel admite múltiples formatos y fuentes.
 
@@ -639,7 +639,7 @@
               figure.mb-4(data-aos="fade-right")
                 img(src='@/assets/curso/temas/img29.svg', alt="" style="max-width: 100px").m-auto
             h3.text-center Archivos locales
-            p.mb-0 CSV, TXT, XML, JSON, Excel (.xlsx/.xls), Access (.mdb/.accdb).
+            p.mb-0 <em>CSV, TXT, XML, JSON, Excel (.xlsx/.xls), Access (.mdb/.accdb)</em>.
       .col-xl-4(data-aos="zoom-in").espacio___movil_3
         .style___box_8.h-100.shadow
           .row.justify-content-center.mb-3
@@ -647,15 +647,15 @@
               figure.mb-4(data-aos="fade-right")
                 img(src='@/assets/curso/temas/img30.svg', alt="" style="max-width: 100px").m-auto
             h3.text-center Bases de datos
-            p.mb-0 SQL Server, MySQL, Oracle, PostgreSQL, SQLite.
+            p.mb-0 <em>SQL Server, MySQL, Oracle, PostgreSQL, SQLite</em>.
       .col-xl-4(data-aos="zoom-in").espacio___movil_3
         .style___box_8.h-100.shadow
           .row.justify-content-center.mb-3
             .col-7
               figure.mb-4(data-aos="fade-left")
                 img(src='@/assets/curso/temas/img31.svg', alt="" style="max-width: 100px").m-auto
-            h3.text-center Fuentes web
-            p.mb-0 APIs REST, servicios web, páginas web (web scraping), archivos en la nube (OneDrive, SharePoint).
+            h3.text-center Fuentes <em>web</em>
+            p.mb-0 <em>APIs REST</em>, servicios <em>web</em>, páginas <em>web</em> (<em>web scraping</em>), archivos en la nube (<em>OneDrive, SharePoint</em>).
     
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -690,7 +690,7 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/img33.png', alt='Captura de pantalla de una hoja de cálculo en Excel con un registro de empleados. Contiene encabezados como ID, Nombre, Apellido, Email, Departamento, Fecha y Contratación, además de cinco filas con datos correspondientes.').m-auto
         
-        p.mb-5 Excel genera una advertencia cuando se intenta abrir un archivo de este formato con un doble clic. La forma correcta es hacerlo desde la opción <strong>Datos</strong> del menú contextual. Las instrucciones son: Inicio → Libro en blanco → Datos → Desde un archivo → Desde texto/CSV. En el siguiente video se detalla el paso a paso:
+        p.mb-5 Excel genera una advertencia cuando se intenta abrir un archivo de este formato con un doble clic. La forma correcta es hacerlo desde la opción <strong>datos</strong> del menú contextual. Las instrucciones son: inicio → libro en blanco → datos → desde un archivo → desde texto/CSV. En el siguiente video se detalla el paso a paso:
     
     figure(data-aos="zoom-in")
       .video.mb-1
@@ -716,7 +716,7 @@
       .col
         h3 ¿Qué es un archivo JSON?
 
-    p.mb-5 Es un formato ligero y estructurado para el intercambio de datos. <strong>JSON (<em>JavaScript Object Notation</em>)</strong> es un formato de texto plano ampliamente utilizado en aplicaciones web y servicios API. Aunque tiene su origen en JavaScript, es <strong>independiente del lenguaje</strong> y está diseñado para ser legible tanto por humanos como por máquinas. Su estructura se basa en <strong>pares clave-valor</strong>, muy similar a objetos en JavaScript o diccionarios en otros lenguajes. A continuación, se presenta un fragmento de datos con distintos tipos de información:
+    p.mb-5 Es un formato ligero y estructurado para el intercambio de datos. <strong>JSON (<em>javascript object notation</em>)</strong> es un formato de texto plano ampliamente utilizado en aplicaciones <em>web</em> y servicios API. Aunque tiene su origen en <em>javascript</em>, es <strong>independiente del lenguaje</strong> y está diseñado para ser legible tanto por humanos como por máquinas. Su estructura se basa en <strong>pares clave-valor</strong>, muy similar a objetos en <em>javascript</em> o diccionarios en otros lenguajes. A continuación, se presenta un fragmento de datos con distintos tipos de información:
 
     .row.justify-content-center.mb-5
       .col-xl-10
@@ -737,12 +737,12 @@
       .col-xl
         p.mb-3 En el siguiente video se explica cómo cargar un archivo en formato JSON en Excel. La información corresponde a empleados de una empresa e incluye datos anidados como departamentos, arreglos de habilidades y diferentes tipos de datos (números, fechas, booleanos y texto).
         .style___box_4.mb-3(data-aos="fade-left")
-          p.mb-3 El dataset contiene 15 registros. Para importarlo en Excel se deben seguir los siguientes pasos:
+          p.mb-3 El <em>dataset</em> contiene 15 registros. Para importarlo en Excel se deben seguir los siguientes pasos:
           ol.lista-ol--cuadro
             li
               .lista-ol--cuadro__vineta
                 span a
-              | Datos > Obtener datos > Desde archivo > Desde JSON.
+              | Datos > obtener datos > desde archivo > desde JSON.
             li 
               .lista-ol--cuadro__vineta
                 span b
@@ -750,7 +750,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span c
-              | Expandir la tabla "vehiculos".
+              | Expandir la tabla "vehículos".
             li 
               .lista-ol--cuadro__vineta
                 span d
@@ -781,7 +781,7 @@
 
         .row.align-items-center.mb-5
           .col-xl
-            p.mb-3 Este es el puente hacia las macros. Aunque como se ha visto en los numerales previos, Power Query automatiza la importación de datos en diferentes formatos, hay muchas otras tareas que necesitan automatización: <strong>aplicar formatos condicionales complejos, crear gráficos, generar archivos PDF, mover datos entre hojas</strong>, entre otras. La <strong>automatización con macros</strong> toma el control donde otras herramientas se detienen, permitiendo <strong>orquestar un flujo de trabajo completo con un solo comando</strong>.
+            p.mb-3 Este es el puente hacia las macros. Aunque, como se ha visto en los numerales previos, <em>Power Query</em> automatiza la importación de datos en diferentes formatos, hay muchas otras tareas que necesitan automatización: <strong>aplicar formatos condicionales complejos, crear gráficos, generar archivos PDF, mover datos entre hojas</strong>, entre otras. La <strong>automatización con macros</strong> toma el control donde otras herramientas se detienen, permitiendo <strong>orquestar un flujo de trabajo completo con un solo comando</strong>.
             .row.align-items-center.m-0
               .col-xl-auto(data-aos="fade-right")
                 figure.d-none.d-xl-block
