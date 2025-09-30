@@ -181,21 +181,21 @@ export default {
       tema: 'Macros',
       referencia: 'Deivis Eduard Ramirez Martinez (2025). Dataset empleados. ',
       tipo: 'Archivo Excel',
-      link: './downloads/empleados.csv',
+      descarga: '/downloads/empleados.csv',
     },
     {
       tema: 'Macros',
       referencia:
         'Deivis Eduard Ramirez Martinez (2025). Dataset empleados_ejemplo. ',
       tipo: 'Archivo Excel',
-      link: './downloads/empleados_ejemplo.csv',
+      descarga: '/downloads/empleados_ejemplo.csv',
     },
     {
       tema: 'Macros',
       referencia:
         'Deivis Eduard Ramirez Martinez (2025). Dataset Practica interfaz. ',
       tipo: 'Archivo Excel ',
-      link: './downloads/PracticaInterfaz.xlsm',
+      descarga: '/downloads/PracticaInterfaz.xlsm',
     },
   ],
   glosario: [
