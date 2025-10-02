@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="610" height="285" viewBox="0 0 610 285">
+  <g id="Group_1190165" data-name="Group 1190165" transform="translate(-180.051 -4508)">
+    <path id="Rectangle_389225" data-name="Rectangle 389225" d="M9,0H601a9,9,0,0,1,9,9V55a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V9A9,9,0,0,1,9,0Z" transform="translate(180.051 4508)" fill="#3a1d71"/>
+    <path id="Rectangle_389226" data-name="Rectangle 389226" d="M0,0H610a0,0,0,0,1,0,0V221a9,9,0,0,1-9,9H9a9,9,0,0,1-9-9V0A0,0,0,0,1,0,0Z" transform="translate(180.051 4563)" fill="#110628"/>
+    <circle id="Ellipse_11380" data-name="Ellipse 11380" cx="8" cy="8" r="8" transform="translate(212.051 4527)" fill="#fb130d"/>
+    <circle id="Ellipse_11381" data-name="Ellipse 11381" cx="8" cy="8" r="8" transform="translate(247.051 4527)" fill="#fecd02"/>
+    <circle id="Ellipse_11382" data-name="Ellipse 11382" cx="8" cy="8" r="8" transform="translate(288.051 4527)" fill="#43dfaa"/>
+    <text id="_Tarea:_T-002_LimpiarDuplicadosClientes_Propósito:_Eliminar_duplicados_por_Correo_Documento_Entradas:_tb_BronceClientes_Salidas:_tb_PlataClientes_Reglas:_Correo_obligatorio_Documento_único" data-name="‘=====================================================
+‘ Tarea: T-002 LimpiarDuplicadosClientes
+‘ Propósito: Eliminar duplicados por (Correo, Documento)
+‘ Entradas: tb_BronceClientes
+‘ Salidas: tb_PlataClientes
+‘ Reglas: Correo obligatorio, Documento único" transform="translate(206.051 4584)" fill="#fff" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="0" y="15">‘=====================================================</tspan><tspan x="0" y="38">‘ Tarea: T-002 LimpiarDuplicadosClientes</tspan><tspan x="0" y="61">‘ Propósito: Eliminar duplicados por (Correo, Documento)</tspan><tspan x="0" y="84">‘ Entradas: tb_BronceClientes</tspan><tspan x="0" y="107">‘ Salidas: tb_PlataClientes</tspan><tspan x="0" y="130">‘ Reglas: Correo obligatorio, Documento único, Fecha válida &gt;= 2018</tspan><tspan x="0" y="153">‘ Autor/Ver: Nombre.Apellido / 1.0 (2025-09-05)</tspan><tspan x="0" y="176">‘=====================================================</tspan><tspan x="0" y="199"></tspan></text>
+  </g>
+</svg>
