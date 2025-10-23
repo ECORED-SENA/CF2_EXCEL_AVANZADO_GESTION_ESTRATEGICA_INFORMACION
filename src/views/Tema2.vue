@@ -231,8 +231,21 @@
       .col-xl-10
         .row.align-items-center
           .col-xl-7(data-aos="fade-right")
-            figure
-              img(src='@/assets/curso/temas/img55.svg', alt='').m-auto
+            .code-window
+              .window-header
+                span.dot.red
+                span.dot.yellow
+                span.dot.green
+              pre
+                code(v-pre).
+                  '=====================================================
+                  ' Tarea: T-002 LimpiarDuplicadosClientes
+                  ' Propósito: Eliminar duplicados por (Correo, Documento)
+                  ' Entradas: tb_BronceClientes
+                  ' Salidas: tb_PlataClientes
+                  ' Reglas: Correo obligatorio, Documento único, Fecha válida >= 2018
+                  ' Autor/Ver: Nombre.Apellido / 1.0 (2025-09-05)
+                  '=====================================================
           .col-xl-5(data-aos="fade-left")
             figure.d-none.d-xl-block
               img(src='@/assets/curso/temas/img56.png', alt='').m-auto
@@ -288,9 +301,37 @@
     p.mb-5 Este es un ejemplo de encabezado estándar para una tarea en VBA.
 
     .row.justify-content-center
-      .col-xl-8
-        figure
-          img(src='@/assets/curso/temas/img59.svg', alt='').m-auto
+      .col-xl-8(data-aos="zoom-in")
+        .code-window
+          .window-header
+            span.dot.red
+            span.dot.yellow
+            span.dot.green
+          pre.ajuste___pre_1
+            code(v-pre).
+              [ID_Tarea] T-00X | [Nombre] Preparar reporte mensual de ventas
+              RF1. Importar CSV desde Parametros!B2 a hoja DatosBrutos y convertir a tb_DatosBrutos.  
+              RF2. Limpiar espacios y caracteres no imprimibles, quitar duplicados por (Factura, Cliente).  
+              RF3. Derivar campos: Año, Mes, ImporteNeto, IVA(19%), ImporteTotal.  
+              RF4. Cargar salida en tb_VentasLimpia (hoja Plata) con tipos correctos.  
+              RF5. Actualizar tabla dinámica "td_ResumenMensual" y guardar log.  
+
+              RNF1. Tiempo total ≤ 5 s para N ≤ 50k filas.  
+              RNF2. Sin intervención del usuario salvo botón "Actualizar todo".  
+              RNF3. Código comentado y con manejo de errores.  
+
+              Datos:  
+              tb_DatosBrutos(Fecha[date], Cliente[text], Factura[text], Importe[number]).
+
+              Validaciones:  
+              Fecha >= 2018-01-01  
+              Importe >= 0  
+              Cliente no vacío
+
+              Criterios de aceptación:  
+              CA1. Tras ejecutar, td_ResumenMensual refleja totales por Mes.  
+              CA2. LOG registra fecha, filas procesadas y "OK" sin errores.  
+              CA3. Si ruta CSV es inválida, se informa error y LOG registra "ERROR".
 
     <!-- BLOQUE 3 -->
     Separador

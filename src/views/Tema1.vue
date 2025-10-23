@@ -694,8 +694,8 @@
     
     figure(data-aos="zoom-in")
       .video.mb-1
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/5i0C9o3lC6w" title="Importar archivos en excel formato separado csv" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption(data-aos="zoom-in") <strong>Video</strong>: Importar archivos en excel formato separado csv.
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/iwEKszKncHc" title="Importar archivos en excel formato separado csv" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption(data-aos="zoom-in") <strong>Video</strong>: importar archivos en Excel formato separado csv.
 
     <!-- BLOQUE 3 -->
     Separador
@@ -722,8 +722,25 @@
       .col-xl-10
         .row.align-items-center
           .col-xl-6(data-aos="fade-right")
-            figure
-              img(src='@/assets/curso/temas/img35.svg', alt='').m-auto
+            .code-window
+              .window-header
+                span.dot.red
+                span.dot.yellow
+                span.dot.green
+              pre.ajuste___pre_1
+                code(v-pre).
+                  {
+                    "nombre": "María García",
+                    "edad": 28,
+                    "activo": true,
+                    "hobbies": ["lectura", "natación", "fotografía"],
+                    "direccion": {
+                      "calle": "Av. Principal 123",
+                      "ciudad": "Madrid",
+                      "codigo_postal": "28001"
+                    },
+                    "telefono": null
+                  }
           .col-xl-6(data-aos="fade-left")
             figure.d-none.d-xl-block
               img(src='@/assets/curso/temas/img36.png', alt='').m-auto
@@ -771,9 +788,9 @@
 
         figure(data-aos="zoom-in")
           .video.mb-1
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/8yk-4hSLq6Q" title="Importar archivos en excel formato JSON" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption(data-aos="zoom-in") <strong>Video</strong>: Importar archivos en excel formato JSON.
-
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/lTtLMouMfaM" title="Importar archivos en excel formato JSON" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption(data-aos="zoom-in") <strong>Video</strong>: importar archivos en Excel formato JSON.
+          
         <!-- BLOQUE 4 -->
         Separador
         #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")

@@ -335,7 +335,7 @@ export default {
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Jose Eduardo Solano  Rivero',
+          nombre: 'José Eduardo Solano  Rivero',
           cargo: 'Animador y productor audiovisual',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

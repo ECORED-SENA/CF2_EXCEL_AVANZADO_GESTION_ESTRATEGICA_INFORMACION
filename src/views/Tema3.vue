@@ -158,7 +158,7 @@
     figure(data-aos="zoom-in")
       .video.mb-1
         iframe(width="560" height="315" src="https://www.youtube.com/embed/TJ2eirgTeOQ" title="Creación de MACROS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption(data-aos="zoom-in") <strong>Video</strong>: Creación de MACROS.
+      figcaption(data-aos="zoom-in") <strong>Video</strong>: creación de MACROS.
 
     <!-- BLOQUE 2 -->
     Separador
@@ -199,7 +199,7 @@
         figure(data-aos="zoom-in").mb-5
           .video.mb-1
             iframe(width="560" height="315" src="https://www.youtube.com/embed/l5_bHi74YfA" title="Grabación de MACROS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption(data-aos="zoom-in") <strong>Video</strong>: Grabación de MACROS.
+          figcaption(data-aos="zoom-in") <strong>Video</strong>: grabación de MACROS.
 
         .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
           .col-lg-auto
@@ -352,7 +352,7 @@
     figure(data-aos="zoom-in").mb-5
       .video.mb-1
         iframe(width="560" height="315" src="https://www.youtube.com/embed/himXWhAmycY" title="Creación de MACRO para un sistema de gestión de empleados" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption(data-aos="zoom-in") <strong>Video</strong>: Creación de MACRO para un sistema de gestión de empleados.
+      figcaption(data-aos="zoom-in") <strong>Video</strong>: creación de MACRO para un sistema de gestión de empleados.
     
     p.mb-1 Además de los <em>UserForms</em>, Excel permite insertar controles directamente sobre la hoja de cálculo.
 
@@ -562,8 +562,37 @@
 
         .row.justify-content-center.mb-5(data-aos="zoom-in")
           .col-xl-6
-            figure
-              img(src="@/assets/curso/temas/img89.svg", alt="").m-auto  
+            .code-window
+              .window-header
+                span.dot.red
+                span.dot.yellow
+                span.dot.green
+              pre.ajuste___pre_1
+                code(v-pre).
+                  Private Sub UserForm_Initialize()
+                  ' Configurar ComboBox Departamento
+                  With cboDepartamento
+                      .AddItem "Recursos Humanos"
+                      .AddItem "Finanzas"
+                      .AddItem "Marketing"
+                      .AddItem "Ventas"
+                      .AddItem "IT"
+                      .AddItem "Operaciones"
+                  End With
+                  
+                  ' Configurar ComboBox Cargo
+                  With cboCargo
+                      .AddItem "Gerente"
+                      .AddItem "Supervisor"
+                      .AddItem "Analista"
+                      .AddItem "Asistente"
+                      .AddItem "Especialista"
+                      .AddItem "Coordinador"
+                  End With
+                  
+                  ' Estado por defecto
+                  optActivo.Value = True
+                  End Sub
         
         p.mb-5 Este procedimiento asegura que los valores de <strong>Departamento, Cargo y Estado</strong> estén disponibles y configurados por defecto al momento de abrir el formulario.
         
@@ -613,8 +642,16 @@
                     .lista-ol--cuadro__vineta
                       span b
                     | Agregar el siguiente código:
-                figure
-                  img(src='@/assets/curso/temas/img91.svg', alt='').m-auto
+                .code-window
+                  .window-header
+                    span.dot.red
+                    span.dot.yellow
+                    span.dot.green
+                  pre.ajuste___pre_1
+                    code(v-pre).
+                      Sub MostrarFormulario()
+                      UserForm1.Show
+                      End Sub
               .col-xl-7(data-aos="fade-left")
                 figure.d-none.d-xl-block
                   img(src='@/assets/curso/temas/img92.png', alt='').m-auto
@@ -639,7 +676,7 @@
     figure(data-aos="zoom-in").mb-5
       .video.mb-1
         iframe(width="560" height="315" src="https://www.youtube.com/embed/bklyZ8FIvts" title="Complemento MACRO gestión de empleados" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption(data-aos="zoom-in") <strong>Video</strong>: Complemento MACRO gestión de empleados.
+      figcaption(data-aos="zoom-in") <strong>Video</strong>: complemento MACRO gestión de empleados.
 
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
