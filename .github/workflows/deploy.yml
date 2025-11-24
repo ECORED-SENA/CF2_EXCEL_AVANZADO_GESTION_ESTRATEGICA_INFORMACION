@@ -30,10 +30,6 @@ jobs:
       - name: Build Vue App
         run: npm run build
 
-      # 🚫 Aquí borramos material.zip antes del deploy
-      - name: Remove .zip files from dist
-        run: rm -f dist/downloads/material.zip
-
       - name: Deploy to GitHub Pages
         run: |
           git config --global user.name "github-actions[bot]"

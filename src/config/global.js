@@ -141,7 +141,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/Excel_Avanzado_GEI_CF02_DU.pdf',
+        download: 'downloads/Excel_Avanzado_GEI_CF02_DU.zip',
       },
       {
         icono: 'fas fa-download',
