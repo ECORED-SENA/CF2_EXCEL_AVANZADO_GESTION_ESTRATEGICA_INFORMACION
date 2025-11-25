@@ -1,0 +1,23 @@
+ID_Empleado,Nombre,Apellido,Departamento,Cargo,Salario,Fecha_Ingreso,Email,Telefono,Estado
+EMP001,Juan,Pérez,Ventas,Vendedor Senior,45000,3/15/2020,juan.perez@empresa.com,555-0101,Activo
+EMP002,María,García,Marketing,Especialista Digital,42000,7/22/2019,maria.garcia@empresa.com,555-0102,Activo
+EMP003,Carlos,López,IT,Desarrollador,55000,1/10/2021,carlos.lopez@empresa.com,555-0103,Activo
+EMP004,Ana,Martínez,RRHH,Coordinadora,38000,11/5/2018,ana.martinez@empresa.com,555-0104,Activo
+EMP005,Luis,Rodríguez,Finanzas,Contador,40000,9/12/2020,luis.rodriguez@empresa.com,555-0105,Activo
+EMP006,Carmen,Sánchez,Ventas,Vendedora,35000,2/28/2022,carmen.sanchez@empresa.com,555-0106,Activo
+EMP007,Roberto,Jiménez,IT,Analista de Sistemas,48000,5/18/2019,roberto.jimenez@empresa.com,555-0107,Activo
+EMP008,Laura,Fernández,Marketing,Gerente de Marketing,60000,8/30/2017,laura.fernandez@empresa.com,555-0108,Activo
+EMP009,Pedro,González,Producción,Supervisor,42000,12/3/2020,pedro.gonzalez@empresa.com,555-0109,Activo
+EMP010,Sofía,Herrera,RRHH,Asistente,32000,6/15/2021,sofia.herrera@empresa.com,555-0110,Activo
+EMP011,Diego,Torres,Finanzas,Analista Financiero,45000,10/8/2019,diego.torres@empresa.com,555-0111,Activo
+EMP012,Valentina,Morales,Ventas,Coordinadora de Ventas,40000,4/20/2020,valentina.morales@empresa.com,555-0112,Activo
+EMP013,Andrés,Castro,IT,Administrador de Redes,46000,8/12/2021,andres.castro@empresa.com,555-0113,Activo
+EMP014,Isabella,Ruiz,Marketing,Especialista en Contenido,38000,1/25/2022,isabella.ruiz@empresa.com,555-0114,Activo
+EMP015,Miguel,Vargas,Producción,Operador,30000,11/30/2021,miguel.vargas@empresa.com,555-0115,Activo
+EMP016,Camila,Ortega,RRHH,Reclutadora,36000,7/14/2020,camila.ortega@empresa.com,555-0116,Activo
+EMP017,Sebastián,Ramírez,Finanzas,Auditor,50000,12/1/2019,sebastian.ramirez@empresa.com,555-0117,Activo
+EMP018,Natalia,Flores,Ventas,Vendedora Junior,28000,3/10/2022,natalia.flores@empresa.com,555-0118,Activo
+EMP019,Fernando,Silva,IT,Desarrollador Junior,40000,9/5/2021,fernando.silva@empresa.com,555-0119,Activo
+EMP020,Paola,Mendoza,Marketing,Asistente de Marketing,32000,5/18/2022,paola.mendoza@empresa.com,555-0120,Activo
+EMP021,Luisa,Martinez,micorreo@mail.com,12345689,Marketing,Gerente,3000000,3/31/2004,Activo
+EMP022,Luisa,Martinez,micorreo@mail.com,12309876534,Marketing,Supervisor,4000000,3/31/2004,Activo
